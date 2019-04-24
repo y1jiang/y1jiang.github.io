@@ -1,0 +1,202 @@
+<!-- copyright yi jiang 2019-present -->
+
+@font-face {
+    font-family: 'open_sanslight';
+         url('/font/OpenSans-Light-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('/font/Butler.woff2') format('woff2'),
+        url('/font/Butler.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: none;
+    background-color: #FFFFFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+    position:relative;
+    padding:110px 80px 10px 100px;
+    color: #000000;
+    font-family:Butler, Times New Roman, Garamond;
+    font-size: 50pt;
+    white-space: nowrap;
+}
+
+
+.title {
+    display: inline-block;
+    margin-right: 25px;
+    color:#000000;
+}
+
+
+.bar {
+    display: inline-block;
+    color:#000000;
+    font-family:Butler, Times New Roman, Arial;
+    font-size: 12pt; 
+}
+
+
+#ind {
+    position:relative;
+    padding:20px 80px 20px 220px;
+    width: 60%;
+    color:#474747;
+    font-family:open_sanslight, Arial;
+    line-height: 150%;
+    font-size: 13pt;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#ind a {
+    border-bottom: 2px solid;
+    padding-bottom: 1px;
+    color: #6dbaa4;
+}
+
+#ind a:hover {
+    color: #b8f2e1;
+}
+
+a.nav {
+    text-decoration: none;
+    border-bottom: none;
+    color:#000000;
+}
+
+a.nav:hover {
+    border-bottom: 2px solid;
+}
+
+.title a {
+    color: #000000;
+}
+
+.title a:hover {
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    color: #000000;
+}
+
+
+a.current, a.current:visited {
+    font-family:Butler, Times New Roman, Arial;
+    font-size: 12pt; 
+    color:#000000;
+    background-color: #f2f2f2;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a.current:hover {
+    border-bottom: 2px solid #000000;
+}
+
+
+.foot_home {
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url('/photos/water.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-overflow: hidden;
+    display: table;
+    opacity: 1;
+}
+
+.foot_writing {
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url('/photos/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-overflow: hidden;
+    display: table;
+    opacity: 1;
+}
+
+.foot_contact {
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url('/photos/rain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-overflow: hidden;
+    display: table;
+    opacity: 1;
+}
+
+.foot_site {
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url('/photos/sky.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-overflow: hidden;
+    display: table;
+    opacity: 1;
+}
+
+h1 {
+    color:#000000;
+    font-family:Butler, Times New Roman, Arial;
+    font-size: 16pt;
+    border-bottom: none;
+}
+
+table {
+  width: 100%;
+  border: none;
+  padding: none;
+  border-collapse: collapse;
+}
+
+tr {
+  margin: 0px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+td {
+  padding: 20px 0px 20px 0px;
+}
+
+td.title
+{
+  text-align: left;
+  vertical-align: middle;
+}
+
+td.details
+{
+  text-align: left;
+  vertical-align: middle;
+}
