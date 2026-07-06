@@ -59,6 +59,15 @@ body {
     font-size: 13pt;
 }
 
+#photo {
+    position:relative;
+    padding:20px 80px 20px 220px;
+    width: 30%;
+    color:#474747;
+    font-family:open_sanslight, Arial;
+    line-height: 150%;
+    font-size: 13pt;
+}
 
 a:link {
     text-decoration: none;
