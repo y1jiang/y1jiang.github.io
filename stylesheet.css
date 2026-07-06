@@ -201,6 +201,10 @@ td.details
   vertical-align: middle;
 }
 
+.profile {
+    float: left;
+}
+
 .profilepic {
     float: right;
 }
