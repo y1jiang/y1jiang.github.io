@@ -205,14 +205,16 @@ td.photo
 {
   text-align: left;
   vertical-align: top;
-    width: 30%;
+    width: 40%;
+    padding: 0px;
 }
 
 td.bio
 {
   text-align: left;
   vertical-align: top;
-    width: 70%;
+    width: 60%;
+ padding: 0px;
 }
 
 table tr {
