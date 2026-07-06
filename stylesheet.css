@@ -204,3 +204,7 @@ td.details
 .profilepic {
     float: right;
 }
+
+.profilepic img {
+    display: block;
+}
