@@ -200,3 +200,7 @@ td.details
   text-align: left;
   vertical-align: middle;
 }
+
+.profilepic {
+    float: left
+}
