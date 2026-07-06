@@ -202,12 +202,12 @@ td.details
 }
 
 .profile {
-    float: right;
-    margin-left: 8px;
+    float: left;
+    margin-right: 8px;
 }
 
 .profilepic {
-    float: left;
+    float: right;
 }
 
 .profilepic img {
