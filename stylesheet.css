@@ -200,26 +200,3 @@ td.details
   text-align: left;
   vertical-align: middle;
 }
-
-td.photo
-{
-  text-align: left;
-  vertical-align: top;
-    width: 40%;
-    padding: 0px;
-}
-
-td.bio
-{
-  text-align: left;
-  vertical-align: top;
-    width: 60%;
- padding: 0px;
-}
-
-table tr {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-    background-color: #fff;
-}
