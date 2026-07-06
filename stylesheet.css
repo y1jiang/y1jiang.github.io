@@ -204,7 +204,15 @@ td.details
 td.photo
 {
   text-align: left;
-  vertical-align: middle;
+  vertical-align: top;
+    width: 30%;
+}
+
+td.bio
+{
+  text-align: left;
+  vertical-align: top;
+    width: 70%;
 }
 
 .table-responsive {
