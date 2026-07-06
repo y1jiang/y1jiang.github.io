@@ -203,6 +203,7 @@ td.details
 
 .profile {
     float: left;
+    margin-right: 8px;
 }
 
 .profilepic {
@@ -211,4 +212,8 @@ td.details
 
 .profilepic img {
     display: block;
+}
+
+.clear {
+    clear: both;
 }
