@@ -218,7 +218,7 @@ td.photo
         margin-bottom: 15px;
         overflow-y: hidden;
         -ms-overflow-style: -ms-autohiding-scrollbar;
-        border: 1px solid #ddd;
+        border: 0px;
     }
     .table-responsive > .table {
         margin-bottom: 0;
